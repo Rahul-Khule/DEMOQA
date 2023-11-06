@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T02:55:31 IST" name="DEMOQA suite" finished-at="2023-11-07T02:55:36 IST" duration-ms="5564">
+  <suite started-at="2023-11-07T03:36:27 IST" name="DEMOQA suite" finished-at="2023-11-07T03:36:34 IST" duration-ms="6986">
     <groups>
     </groups>
-    <test started-at="2023-11-07T02:55:31 IST" name="Test DEMOQA" finished-at="2023-11-07T02:55:36 IST" duration-ms="5564">
+    <test started-at="2023-11-07T03:36:27 IST" name="Test DEMOQA" finished-at="2023-11-07T03:36:34 IST" duration-ms="6986">
       <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T02:55:31 IST" name="setup" finished-at="2023-11-07T02:55:36 IST" duration-ms="4780" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:27 IST" name="setup" finished-at="2023-11-07T03:36:33 IST" duration-ms="6134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T02:55:36 IST" name="test_elements_text_box" finished-at="2023-11-07T02:55:36 IST" duration-ms="454" status="PASS">
+        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:33 IST" name="test_elements_text_box" finished-at="2023-11-07T03:36:34 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elements_text_box -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T02:55:36 IST" name="teardown" finished-at="2023-11-07T02:55:36 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:34 IST" name="teardown" finished-at="2023-11-07T03:36:34 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
