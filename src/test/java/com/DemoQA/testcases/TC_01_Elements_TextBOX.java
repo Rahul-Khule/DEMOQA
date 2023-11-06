@@ -30,7 +30,7 @@ public class TC_01_Elements_TextBOX extends Base_Class{
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
 		pgo.click_Submit();
 		
-		if (driver.findElement(By.xpath("//p[@id='name']")).getText().contains("1")) {
+		if (driver.findElement(By.xpath("//p[@id='name']")).getText().contains(fullName)) {
 			Assert.assertTrue(true);
 			logger.info("-------------test passed-----------------");
 		}
