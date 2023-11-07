@@ -36,7 +36,7 @@ public class TC_01_Elements_TextBOX extends Base_Class{
 			logger.info("-------------test passed-----------------");
 		}
 		else {
-			cpatureSS(driver, "TC_01_Elements_TextBOX");
+			cpatureSS(driver, "test_elements_text_box");
 			logger.info("----------------------test fail------------------");
 			Assert.assertTrue(false);
 			

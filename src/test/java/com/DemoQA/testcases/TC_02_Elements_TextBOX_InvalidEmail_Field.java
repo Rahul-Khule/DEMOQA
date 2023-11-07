@@ -37,7 +37,7 @@ public class TC_02_Elements_TextBOX_InvalidEmail_Field extends Base_Class{
 				logger.info("-------------test passed-----------------");
 			}
 			else {
-				cpatureSS(driver, "TC_02_Elements_TextBOX_InvalidEmail_Field");
+				cpatureSS(driver, "test_Elements_TextBOX_InvalidEmail_Field");
 				logger.info("----------------------test fail------------------");
 				Assert.assertTrue(false);
 				

@@ -10,6 +10,7 @@
     <classes>
       <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX"/>
       <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field"/>
+      <class name="com.DemoQA.testcases.TC_03_Elemets_RadioButton"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- DEMOQA suite -->

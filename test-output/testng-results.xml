@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T18:30:03 IST" name="DEMOQA suite" finished-at="2023-11-07T18:30:15 IST" duration-ms="11099">
+  <suite started-at="2023-11-07T19:58:00 IST" name="DEMOQA suite" finished-at="2023-11-07T19:58:26 IST" duration-ms="26068">
     <groups>
     </groups>
-    <test started-at="2023-11-07T18:30:03 IST" name="Test DEMOQA" finished-at="2023-11-07T18:30:15 IST" duration-ms="11099">
-      <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:04 IST" name="setup" finished-at="2023-11-07T18:30:08 IST" duration-ms="4808" status="PASS">
+    <test started-at="2023-11-07T19:58:00 IST" name="Test DEMOQA" finished-at="2023-11-07T19:58:26 IST" duration-ms="26068">
+      <class name="com.DemoQA.testcases.TC_03_Elemets_RadioButton">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T19:58:11 IST" name="setup" finished-at="2023-11-07T19:58:16 IST" duration-ms="4581" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,126 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:08 IST" name="test_elements_text_box" finished-at="2023-11-07T18:30:09 IST" duration-ms="461" status="PASS">
+        <test-method signature="test_elemets_YES_radio_button()[pri:1, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T19:58:16 IST" name="test_elemets_YES_radio_button" finished-at="2023-11-07T19:58:21 IST" duration-ms="5404" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.DemoQA.testcases.TC_03_Elemets_RadioButton.test_elemets_YES_radio_button(TC_03_Elemets_RadioButton.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_elemets_YES_radio_button -->
+        <test-method signature="test_elemets_Impressive_radio_button()[pri:2, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T19:58:21 IST" name="test_elemets_Impressive_radio_button" finished-at="2023-11-07T19:58:26 IST" duration-ms="5324" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.DemoQA.testcases.TC_03_Elemets_RadioButton.test_elemets_Impressive_radio_button(TC_03_Elemets_RadioButton.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_elemets_Impressive_radio_button -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T19:58:26 IST" name="teardown" finished-at="2023-11-07T19:58:26 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DemoQA.testcases.TC_03_Elemets_RadioButton -->
+      <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T19:58:01 IST" name="setup" finished-at="2023-11-07T19:58:05 IST" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T19:58:05 IST" name="test_elements_text_box" finished-at="2023-11-07T19:58:06 IST" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elements_text_box -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:09 IST" name="teardown" finished-at="2023-11-07T18:30:09 IST" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T19:58:06 IST" name="teardown" finished-at="2023-11-07T19:58:06 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.DemoQA.testcases.TC_01_Elements_TextBOX -->
       <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:09 IST" name="setup" finished-at="2023-11-07T18:30:14 IST" duration-ms="4934" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T19:58:06 IST" name="setup" finished-at="2023-11-07T19:58:10 IST" duration-ms="4537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +148,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Elements_TextBOX_InvalidEmail_Field()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:14 IST" name="test_Elements_TextBOX_InvalidEmail_Field" finished-at="2023-11-07T18:30:14 IST" duration-ms="433" status="PASS">
+        <test-method signature="test_Elements_TextBOX_InvalidEmail_Field()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T19:58:10 IST" name="test_Elements_TextBOX_InvalidEmail_Field" finished-at="2023-11-07T19:58:11 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Elements_TextBOX_InvalidEmail_Field -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:14 IST" name="teardown" finished-at="2023-11-07T18:30:15 IST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T19:58:11 IST" name="teardown" finished-at="2023-11-07T19:58:11 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
