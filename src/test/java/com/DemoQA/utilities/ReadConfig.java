@@ -46,4 +46,8 @@ public class ReadConfig {
 			String epath = pro.getProperty("edgepath");
 			return epath;
 		}
+		public String getElement_Buttons_Url() {
+			String ul = pro.getProperty("base_url_elements_buttons");
+			return ul;
+		}
 }

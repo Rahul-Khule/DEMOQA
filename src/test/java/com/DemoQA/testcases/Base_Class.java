@@ -29,6 +29,7 @@ public class Base_Class {
 	public String fullName = readconfig.getFullName();
 	public String currAdd = readconfig.getCurrentAddress();
 	public String perADD = readconfig.getPermanentAddress();
+	public String Buttonurl = readconfig.getElement_Buttons_Url();
 	
 	public static WebDriver driver;
 	

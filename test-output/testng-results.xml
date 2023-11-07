@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T20:12:59 IST" name="DEMOQA suite" finished-at="2023-11-07T20:13:25 IST" duration-ms="26613">
+  <suite started-at="2023-11-08T01:00:12 IST" name="DEMOQA suite" finished-at="2023-11-08T01:00:51 IST" duration-ms="38584">
     <groups>
     </groups>
-    <test started-at="2023-11-07T20:12:59 IST" name="Test DEMOQA" finished-at="2023-11-07T20:13:25 IST" duration-ms="26613">
+    <test started-at="2023-11-08T01:00:12 IST" name="Test DEMOQA" finished-at="2023-11-08T01:00:51 IST" duration-ms="38584">
       <class name="com.DemoQA.testcases.TC_03_Elemets_RadioButton">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T20:13:11 IST" name="setup" finished-at="2023-11-07T20:13:15 IST" duration-ms="4379" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@419a20a6]" started-at="2023-11-08T01:00:25 IST" name="setup" finished-at="2023-11-08T01:00:30 IST" duration-ms="5302" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_elemets_YES_radio_button()[pri:1, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T20:13:15 IST" name="test_elemets_YES_radio_button" finished-at="2023-11-07T20:13:20 IST" duration-ms="5160" status="PASS">
+        <test-method signature="test_elemets_YES_radio_button()[pri:1, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@419a20a6]" started-at="2023-11-08T01:00:30 IST" name="test_elemets_YES_radio_button" finished-at="2023-11-08T01:00:36 IST" duration-ms="5156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elemets_YES_radio_button -->
-        <test-method signature="test_elemets_Impressive_radio_button()[pri:2, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T20:13:20 IST" name="test_elemets_Impressive_radio_button" finished-at="2023-11-07T20:13:25 IST" duration-ms="5131" status="PASS">
+        <test-method signature="test_elemets_Impressive_radio_button()[pri:2, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@419a20a6]" started-at="2023-11-08T01:00:36 IST" name="test_elemets_Impressive_radio_button" finished-at="2023-11-08T01:00:41 IST" duration-ms="5118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elemets_Impressive_radio_button -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@34625ccd]" started-at="2023-11-07T20:13:25 IST" name="teardown" finished-at="2023-11-07T20:13:25 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_03_Elemets_RadioButton@419a20a6]" started-at="2023-11-08T01:00:41 IST" name="teardown" finished-at="2023-11-08T01:00:41 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.DemoQA.testcases.TC_03_Elemets_RadioButton -->
       <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T20:12:59 IST" name="setup" finished-at="2023-11-07T20:13:04 IST" duration-ms="5219" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@427b5f92]" started-at="2023-11-08T01:00:12 IST" name="setup" finished-at="2023-11-08T01:00:20 IST" duration-ms="8013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,17 +43,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T20:13:04 IST" name="test_elements_text_box" finished-at="2023-11-07T20:13:05 IST" duration-ms="475" status="PASS">
+        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@427b5f92]" started-at="2023-11-08T01:00:20 IST" name="test_elements_text_box" finished-at="2023-11-08T01:00:21 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elements_text_box -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@5860f3d7]" started-at="2023-11-07T20:13:05 IST" name="teardown" finished-at="2023-11-07T20:13:05 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@427b5f92]" started-at="2023-11-08T01:00:21 IST" name="teardown" finished-at="2023-11-08T01:00:21 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.DemoQA.testcases.TC_01_Elements_TextBOX -->
       <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T20:13:05 IST" name="setup" finished-at="2023-11-07T20:13:10 IST" duration-ms="5233" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@67389cb8]" started-at="2023-11-08T01:00:21 IST" name="setup" finished-at="2023-11-08T01:00:25 IST" duration-ms="3906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,44 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_Elements_TextBOX_InvalidEmail_Field()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T20:13:10 IST" name="test_Elements_TextBOX_InvalidEmail_Field" finished-at="2023-11-07T20:13:10 IST" duration-ms="411" status="PASS">
+        <test-method signature="test_Elements_TextBOX_InvalidEmail_Field()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@67389cb8]" started-at="2023-11-08T01:00:25 IST" name="test_Elements_TextBOX_InvalidEmail_Field" finished-at="2023-11-08T01:00:25 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Elements_TextBOX_InvalidEmail_Field -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@7e3f95fe]" started-at="2023-11-07T20:13:10 IST" name="teardown" finished-at="2023-11-07T20:13:11 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@67389cb8]" started-at="2023-11-08T01:00:25 IST" name="teardown" finished-at="2023-11-08T01:00:25 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field -->
+      <class name="com.DemoQA.testcases.TC_04_Elements_Buttons">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_04_Elements_Buttons@533377b]" started-at="2023-11-08T01:00:41 IST" name="setup" finished-at="2023-11-08T01:00:46 IST" duration-ms="4997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Double_click()[pri:1, instance:com.DemoQA.testcases.TC_04_Elements_Buttons@533377b]" started-at="2023-11-08T01:00:46 IST" name="test_Double_click" finished-at="2023-11-08T01:00:47 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Double_click -->
+        <test-method signature="test_Right_click()[pri:2, instance:com.DemoQA.testcases.TC_04_Elements_Buttons@533377b]" started-at="2023-11-08T01:00:47 IST" name="test_Right_click" finished-at="2023-11-08T01:00:49 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Right_click -->
+        <test-method signature="test_click_ME()[pri:3, instance:com.DemoQA.testcases.TC_04_Elements_Buttons@533377b]" started-at="2023-11-08T01:00:49 IST" name="test_click_ME" finished-at="2023-11-08T01:00:51 IST" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_click_ME -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_04_Elements_Buttons@533377b]" started-at="2023-11-08T01:00:51 IST" name="teardown" finished-at="2023-11-08T01:00:51 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DemoQA.testcases.TC_04_Elements_Buttons -->
     </test> <!-- Test DEMOQA -->
   </suite> <!-- DEMOQA suite -->
 </testng-results>

@@ -10,7 +10,7 @@ import com.DemoQA.pageobjects.Elements_RadioButton_Page_Objects;
 
 public class TC_03_Elemets_RadioButton extends Base_Class{
 	@Test(priority = 1)
-	public void test_elemets_YES_radio_button() throws IOException, InterruptedException {
+	public void test_elemets_YES_radio_button() throws IOException {
 	//create page objects
 	Elements_RadioButton_Page_Objects radio = new Elements_RadioButton_Page_Objects(driver);
 	radio.click_checkboxsection();
@@ -18,7 +18,7 @@ public class TC_03_Elemets_RadioButton extends Base_Class{
 	
 	radio.click_yesRadioButton();
 	logger.info("clicked on yes radio button");
-	Thread.sleep(5000);
+	
 	if (driver.findElement(By.xpath("//span[text()=\"Yes\"]")).getText().contains("Yes")) {
 		Assert.assertTrue(true);
 		logger.info("---------------------successfully clicked on yes radio button-----------------");
@@ -32,7 +32,7 @@ public class TC_03_Elemets_RadioButton extends Base_Class{
 	}
 	
 	@Test(priority = 2)
-	public void test_elemets_Impressive_radio_button() throws IOException, InterruptedException {
+	public void test_elemets_Impressive_radio_button() throws IOException {
 	//create page objects
 	Elements_RadioButton_Page_Objects radio = new Elements_RadioButton_Page_Objects(driver);
 	radio.click_checkboxsection();
@@ -41,7 +41,7 @@ public class TC_03_Elemets_RadioButton extends Base_Class{
 	radio.click_impressiveRadioButton();
 	
 	logger.info("clicked on Impressive radio button");
-	Thread.sleep(5000);
+	
 	if (driver.findElement(By.xpath("//span[text()=\"Impressive\"]")).getText().contains("Impressive")) {
 		Assert.assertTrue(true);
 		logger.info("---------------------successfully clicked on impressive radio button---------------------------");
