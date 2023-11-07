@@ -38,11 +38,12 @@ public class Reports implements ITestListener{
 
 		@Override
 		public void onTestFailure(ITestResult result) {
-			String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-			String className = result.getTestClass().getRealClass().getSimpleName();
+			String className = result.getTestClass().getName();
+			 String simpleClassName = className.substring(className.lastIndexOf('.') + 1);
+			
 			extenttest.log(Status.FAIL, result.getName()+"got failed");
 			//6 add ss in report
-			String sspath = System.getProperty("user.dir")+"\\Screenshots\\"+className+timestamp+".png";
+			String sspath = System.getProperty("user.dir")+"\\Screenshots\\"+simpleClassName+".png";
 			File f = new File(sspath);
 			if (f.exists()) {
 		        extenttest.log(Status.INFO, "Screenshot exists at: " + sspath);

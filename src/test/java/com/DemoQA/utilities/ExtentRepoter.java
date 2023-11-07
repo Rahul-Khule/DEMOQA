@@ -40,8 +40,9 @@ public class ExtentRepoter {
 			e.printStackTrace();
 		}
 		//6.addition info 
-		extentreport.setSystemInfo("Application URL",conpro.getProperty("baseurl"));
 		extentreport.setSystemInfo("Environment", "Windows");
+		extentreport.setSystemInfo("UserName", "Rahul D");
+		extentreport.setSystemInfo("Designation", "QA");
 		return extentreport;
 	}
 }

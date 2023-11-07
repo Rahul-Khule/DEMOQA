@@ -1,0 +1,293 @@
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - Element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='email']"}
+  (Session info: chrome=118.0.5993.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7161d78085414b5d2d9dfd285997ab36, findElement {using=xpath, value=//p[@id='email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64199}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64199/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7161d78085414b5d2d9dfd285997ab36
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - ----------------------test fail------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------

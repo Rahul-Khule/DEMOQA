@@ -9,6 +9,7 @@
   </parameter>
     <classes>
       <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX"/>
+      <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- DEMOQA suite -->

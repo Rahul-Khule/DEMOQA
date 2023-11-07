@@ -14,6 +14,13 @@
           <include name="test_elements_text_box"/>
         </methods>
       </class> <!-- com.DemoQA.testcases.TC_01_Elements_TextBOX -->
+      <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field">
+        <methods>
+          <include name="teardown"/>
+          <include name="test_Elements_TextBOX_InvalidEmail_Field"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field -->
     </classes>
   </test> <!-- Test DEMOQA(failed) -->
 </suite> <!-- Failed suite [DEMOQA suite] -->

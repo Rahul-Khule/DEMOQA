@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-07T03:36:27 IST" name="DEMOQA suite" finished-at="2023-11-07T03:36:34 IST" duration-ms="6986">
+  <suite started-at="2023-11-07T18:30:03 IST" name="DEMOQA suite" finished-at="2023-11-07T18:30:15 IST" duration-ms="11099">
     <groups>
     </groups>
-    <test started-at="2023-11-07T03:36:27 IST" name="Test DEMOQA" finished-at="2023-11-07T03:36:34 IST" duration-ms="6986">
+    <test started-at="2023-11-07T18:30:03 IST" name="Test DEMOQA" finished-at="2023-11-07T18:30:15 IST" duration-ms="11099">
       <class name="com.DemoQA.testcases.TC_01_Elements_TextBOX">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:27 IST" name="setup" finished-at="2023-11-07T03:36:33 IST" duration-ms="6134" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:04 IST" name="setup" finished-at="2023-11-07T18:30:08 IST" duration-ms="4808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:33 IST" name="test_elements_text_box" finished-at="2023-11-07T03:36:34 IST" duration-ms="456" status="PASS">
+        <test-method signature="test_elements_text_box()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:08 IST" name="test_elements_text_box" finished-at="2023-11-07T18:30:09 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_elements_text_box -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@2c104774]" started-at="2023-11-07T03:36:34 IST" name="teardown" finished-at="2023-11-07T03:36:34 IST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_01_Elements_TextBOX@4e517165]" started-at="2023-11-07T18:30:09 IST" name="teardown" finished-at="2023-11-07T18:30:09 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.DemoQA.testcases.TC_01_Elements_TextBOX -->
+      <class name="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:09 IST" name="setup" finished-at="2023-11-07T18:30:14 IST" duration-ms="4934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Elements_TextBOX_InvalidEmail_Field()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:14 IST" name="test_Elements_TextBOX_InvalidEmail_Field" finished-at="2023-11-07T18:30:14 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Elements_TextBOX_InvalidEmail_Field -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field@1ddae9b5]" started-at="2023-11-07T18:30:14 IST" name="teardown" finished-at="2023-11-07T18:30:15 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field -->
     </test> <!-- Test DEMOQA -->
   </suite> <!-- DEMOQA suite -->
 </testng-results>

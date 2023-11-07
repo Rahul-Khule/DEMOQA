@@ -61,10 +61,10 @@ public class Base_Class {
 		}
 	 
 		public void cpatureSS(WebDriver driver,String tname ) throws IOException {
-			String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+			
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File src = ts.getScreenshotAs(OutputType.FILE);
-			File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+timestamp+".png");
+			File target = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
 			FileUtils.copyFile(src, target);
 			System.out.println("SS taken");
 			
