@@ -387,3 +387,21 @@ DEMOQA - ------------------Failed to click on yes radio button------------------
 DEMOQA - clicked on check box section
 DEMOQA - clicked on Impressive radio button
 DEMOQA - -----------------------Failed to click on impressive radio button-----------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - clicked on check box section
+DEMOQA - clicked on yes radio button
+DEMOQA - ---------------------successfully clicked on yes radio button-----------------
+DEMOQA - clicked on check box section
+DEMOQA - clicked on Impressive radio button
+DEMOQA - ---------------------successfully clicked on impressive radio button---------------------------

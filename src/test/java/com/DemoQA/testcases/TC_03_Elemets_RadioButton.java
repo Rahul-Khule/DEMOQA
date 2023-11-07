@@ -19,7 +19,7 @@ public class TC_03_Elemets_RadioButton extends Base_Class{
 	radio.click_yesRadioButton();
 	logger.info("clicked on yes radio button");
 	Thread.sleep(5000);
-	if (driver.findElement(By.xpath("//span[text()=\"Yes\"]")).getText().contains("1")) {
+	if (driver.findElement(By.xpath("//span[text()=\"Yes\"]")).getText().contains("Yes")) {
 		Assert.assertTrue(true);
 		logger.info("---------------------successfully clicked on yes radio button-----------------");
 	}
@@ -42,7 +42,7 @@ public class TC_03_Elemets_RadioButton extends Base_Class{
 	
 	logger.info("clicked on Impressive radio button");
 	Thread.sleep(5000);
-	if (driver.findElement(By.xpath("//span[text()=\"Impressive\"]")).getText().contains("1")) {
+	if (driver.findElement(By.xpath("//span[text()=\"Impressive\"]")).getText().contains("Impressive")) {
 		Assert.assertTrue(true);
 		logger.info("---------------------successfully clicked on impressive radio button---------------------------");
 	}
