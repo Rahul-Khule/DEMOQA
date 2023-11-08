@@ -562,3 +562,98 @@ DEMOQA - ------------------TEST PASSED----------------
 DEMOQA - clicked on button section
 DEMOQA - clicked the button
 DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - -------------------Test FAILED----------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - -------------------Test FAILED----------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - clicked on button section
+DEMOQA - double clicked the button
+DEMOQA - clicked on button section
+DEMOQA - Right clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - clicked on button section
+DEMOQA - clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on Dynamic HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - clicked on button section
+DEMOQA - double clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - clicked on button section
+DEMOQA - Right clicked the button
+DEMOQA - clicked on button section
+DEMOQA - clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on Dynamic HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Fullname entered
+DEMOQA - generated random email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - Fullname entered
+DEMOQA - generated invalid email
+DEMOQA - Current address entered
+DEMOQA - permanent address entered
+DEMOQA - Clicked on submit
+DEMOQA - -------------test passed-----------------
+DEMOQA - clicked on check box section
+DEMOQA - clicked on yes radio button
+DEMOQA - ---------------------successfully clicked on yes radio button-----------------
+DEMOQA - clicked on check box section
+DEMOQA - clicked on Impressive radio button
+DEMOQA - ---------------------successfully clicked on impressive radio button---------------------------
+DEMOQA - clicked on button section
+DEMOQA - double clicked the button
+DEMOQA - clicked on button section
+DEMOQA - Right clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - clicked on button section
+DEMOQA - clicked the button
+DEMOQA - ------------------TEST PASSED----------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------
+DEMOQA - Clicked on links section
+DEMOQA - Clicked on Dynamic HOMEPG LINK
+DEMOQA - --------------------Test Passed-------------------

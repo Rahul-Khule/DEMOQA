@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DemoQA.testcases.TC_03_Elemets_RadioButton">
+      <class name="com.DemoQA.testcases.TC_04_Elements_Buttons">
         <methods>
           <include name="teardown"/>
-          <include name="test_elemets_YES_radio_button"/>
-          <include name="test_elemets_Impressive_radio_button"/>
+          <include name="test_Double_click"/>
+          <include name="test_click_ME"/>
           <include name="setup"/>
+          <include name="test_Right_click"/>
         </methods>
-      </class> <!-- com.DemoQA.testcases.TC_03_Elemets_RadioButton -->
+      </class> <!-- com.DemoQA.testcases.TC_04_Elements_Buttons -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

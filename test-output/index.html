@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-DEMOQA_suite" class="navigator-link">
-              <span class="suite-name border-passed">DEMOQA suite</span>
+              <span class="suite-name border-failed">DEMOQA suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DEMOQA_suite" class="hide-methods failed suite-DEMOQA_suite"> (hide)</a> <!-- hide-methods failed suite-DEMOQA_suite -->
+                      <a href="#" panel-name="suite-DEMOQA_suite" class="show-methods failed suite-DEMOQA_suite"> (show)</a> <!-- show-methods failed suite-DEMOQA_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-DEMOQA_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_04_Elements_Buttons" class="method navigator-link" hash-for-method="test_Double_click">test_Double_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DEMOQA_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,17 @@
                     <div class="method-list-content passed suite-DEMOQA_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_04_Elements_Buttons" class="method navigator-link" hash-for-method="test_Double_click">test_Double_click</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field" class="method navigator-link" hash-for-method="test_Elements_TextBOX_InvalidEmail_Field">test_Elements_TextBOX_InvalidEmail_Field</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field" class="method navigator-link" hash-for-method="test_Elements_TextBOX_InvalidEmail_Field">test_Elements_TextBOX_InvalidEmail_Field</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_05_Elements_Links" class="method navigator-link" hash-for-method="test_HomePG_DynamicLink">test_HomePG_DynamicLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DEMOQA_suite" title="com.DemoQA.testcases.TC_05_Elements_Links" class="method navigator-link" hash-for-method="test_HomePG_Link">test_HomePG_Link</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,6 +167,45 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DEMOQA_suite" class="panel DEMOQA_suite">
+          <div class="suite-DEMOQA_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.DemoQA.testcases.TC_04_Elements_Buttons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Double_click">
+                  </a> <!-- test_Double_click -->
+                  <span class="method-name">test_Double_click</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&quot;double click&quot;)]&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [340db48e2edb15ac0169b11fc3818467, findElement {using=xpath, value=//p[contains(text(),&quot;double click&quot;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55386/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 340db48e2edb15ac0169b11fc3818467
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.DemoQA.testcases.TC_04_Elements_Buttons.test_Double_click(TC_04_Elements_Buttons.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DEMOQA_suite-class-failed -->
           <div class="suite-DEMOQA_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -166,16 +224,31 @@
           <div class="suite-DEMOQA_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.DemoQA.testcases.TC_04_Elements_Buttons</span>
+              <span class="class-name">com.DemoQA.testcases.TC_05_Elements_Links</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Double_click">
-                  </a> <!-- test_Double_click -->
-                  <span class="method-name">test_Double_click</span>
+                  <a name="test_HomePG_DynamicLink">
+                  </a> <!-- test_HomePG_DynamicLink -->
+                  <span class="method-name">test_HomePG_DynamicLink</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_HomePG_Link">
+                  </a> <!-- test_HomePG_Link -->
+                  <span class="method-name">test_HomePG_Link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DEMOQA_suite-class-passed -->
+          <div class="suite-DEMOQA_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DemoQA.testcases.TC_04_Elements_Buttons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="test_Right_click">
@@ -249,6 +322,7 @@
       &lt;class name=&quot;com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field&quot;/&gt;
       &lt;class name=&quot;com.DemoQA.testcases.TC_03_Elemets_RadioButton&quot;/&gt;
       &lt;class name=&quot;com.DemoQA.testcases.TC_04_Elements_Buttons&quot;/&gt;
+      &lt;class name=&quot;com.DemoQA.testcases.TC_05_Elements_Links&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test DEMOQA --&gt;
 &lt;/suite&gt; &lt;!-- DEMOQA suite --&gt;
@@ -262,7 +336,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test DEMOQA (4 classes)</span>
+                <span class="test-name">Test DEMOQA (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,40 +362,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_elemets_YES_radio_button')
-data.setCell(0, 2, 'com.DemoQA.testcases.TC_03_Elemets_RadioButton')
-data.setCell(0, 3, 5156);
+data.setCell(0, 1, 'test_Double_click')
+data.setCell(0, 2, 'com.DemoQA.testcases.TC_04_Elements_Buttons')
+data.setCell(0, 3, 10980);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_elemets_Impressive_radio_button')
-data.setCell(1, 2, 'com.DemoQA.testcases.TC_03_Elemets_RadioButton')
-data.setCell(1, 3, 5118);
+data.setCell(1, 1, 'test_HomePG_Link')
+data.setCell(1, 2, 'com.DemoQA.testcases.TC_05_Elements_Links')
+data.setCell(1, 3, 2662);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_click_ME')
+data.setCell(2, 1, 'test_Right_click')
 data.setCell(2, 2, 'com.DemoQA.testcases.TC_04_Elements_Buttons')
-data.setCell(2, 3, 2066);
+data.setCell(2, 3, 1107);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_Double_click')
+data.setCell(3, 1, 'test_click_ME')
 data.setCell(3, 2, 'com.DemoQA.testcases.TC_04_Elements_Buttons')
-data.setCell(3, 3, 1330);
+data.setCell(3, 3, 1029);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_Right_click')
-data.setCell(4, 2, 'com.DemoQA.testcases.TC_04_Elements_Buttons')
-data.setCell(4, 3, 1322);
+data.setCell(4, 1, 'test_elements_text_box')
+data.setCell(4, 2, 'com.DemoQA.testcases.TC_01_Elements_TextBOX')
+data.setCell(4, 3, 468);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test_elements_text_box')
-data.setCell(5, 2, 'com.DemoQA.testcases.TC_01_Elements_TextBOX')
-data.setCell(5, 3, 420);
+data.setCell(5, 1, 'test_Elements_TextBOX_InvalidEmail_Field')
+data.setCell(5, 2, 'com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field')
+data.setCell(5, 3, 391);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'test_Elements_TextBOX_InvalidEmail_Field')
-data.setCell(6, 2, 'com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field')
-data.setCell(6, 3, 335);
+data.setCell(6, 1, 'test_HomePG_DynamicLink')
+data.setCell(6, 2, 'com.DemoQA.testcases.TC_05_Elements_Links')
+data.setCell(6, 3, 336);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_elemets_YES_radio_button')
+data.setCell(7, 2, 'com.DemoQA.testcases.TC_03_Elemets_RadioButton')
+data.setCell(7, 3, 158);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_elemets_Impressive_radio_button')
+data.setCell(8, 2, 'com.DemoQA.testcases.TC_03_Elemets_RadioButton')
+data.setCell(8, 3, 143);
 window.suiteTableData['DEMOQA_suite']= { tableData: data, tableDiv: 'times-div-DEMOQA_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-DEMOQA_suite">
               </div> <!-- times-div-DEMOQA_suite -->
             </div> <!-- times-div -->
@@ -354,68 +436,89 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_elements_text_box</span>
-                <span class="method-start">8018 ms</span>
+                <span class="method-start">10831 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">8441 ms</span>
+                <span class="method-start">11299 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.DemoQA.testcases.TC_02_Elements_TextBOX_InvalidEmail_Field</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">8544 ms</span>
+                <span class="method-start">11410 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Elements_TextBOX_InvalidEmail_Field</span>
-                <span class="method-start">12450 ms</span>
+                <span class="method-start">16768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">12786 ms</span>
+                <span class="method-start">17159 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.DemoQA.testcases.TC_03_Elemets_RadioButton</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">12892 ms</span>
+                <span class="method-start">17262 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_elemets_YES_radio_button</span>
-                <span class="method-start">18195 ms</span>
+                <span class="method-start">22726 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_elemets_Impressive_radio_button</span>
-                <span class="method-start">23353 ms</span>
+                <span class="method-start">22888 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">28471 ms</span>
+                <span class="method-start">23032 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.DemoQA.testcases.TC_04_Elements_Buttons</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">28585 ms</span>
+                <span class="method-start">23137 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Double_click</span>
-                <span class="method-start">33582 ms</span>
+                <span class="method-start">29944 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_Right_click</span>
-                <span class="method-start">34913 ms</span>
+                <span class="method-start">40927 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test_click_ME</span>
-                <span class="method-start">36237 ms</span>
+                <span class="method-start">42036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">38304 ms</span>
+                <span class="method-start">43066 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DemoQA.testcases.TC_05_Elements_Links</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">43210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_HomePG_Link</span>
+                <span class="method-start">50328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_HomePG_DynamicLink</span>
+                <span class="method-start">52991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53331 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

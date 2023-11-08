@@ -56,7 +56,9 @@ public class Base_Class {
 		
 		@AfterClass
 		public void teardown() {
-			driver.quit();
+			
+	            driver.quit();
+	        
 		}
 	 
 		public void cpatureSS(WebDriver driver,String tname ) throws IOException {
